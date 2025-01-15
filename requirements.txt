@@ -1,6 +1,15 @@
+pyyaml
+torch>=1.12
+torchvision>=0.13
+numpy
+matplotlib
 brewer2mpl
+opencv-python
 opencv-contrib-python
-future
+tensorboard
+omegaconf
+tqdm
+future  # tensorboard dependency
 kornia>=0.6
 cython
 shapely
@@ -9,5 +18,5 @@ h5py
 flow_vis
 jupyter
 seaborn
-scikit-build
+
 ./third_party/pytlsd
